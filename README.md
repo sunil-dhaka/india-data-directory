@@ -508,6 +508,27 @@ These are the foundational data sources for understanding India. Both organizati
 - **Use cases:** Ground-truth for nighttime lights GDP proxy validation.
 - **Referenced by:** XKDR
 
+### 73. State GIS Portals / ULB Boundary Shapefiles
+- **Link:** https://kgis.ksrsac.in/ (Karnataka), https://gis.rajasthan.gov.in/ (Rajasthan)
+- **Publisher:** State GIS agencies (KSRSAC for Karnataka, RSAC for Rajasthan, etc.)
+- **What:** GIS shapefiles of administrative boundaries -- ULB (Urban Local Body) limits, district/taluk/village boundaries. Available for some states; coverage is uneven. Karnataka's KGIS portal provides downloadable ULB boundary shapefiles used in property tax research.
+- **Use cases:** Clipping satellite rasters (GHSL, VIIRS) to municipal boundaries for fiscal capacity estimation. Overlaying spatial data with municipal finance records. Essential for any ULB-level geospatial analysis.
+- **Referenced by:** XKDR (Seth et al., 2026 -- property tax potential paper)
+
+### 74. Survey of India Administrative Boundaries
+- **Link:** https://onlinemaps.surveyofindia.gov.in/
+- **Publisher:** Survey of India, Department of Science and Technology
+- **What:** Official administrative boundary maps and shapefiles for India -- international, state, district, sub-district, and village boundaries. The authoritative source for India's geospatial boundary data. Also see community alternatives: DataMeet (https://github.com/datameet/maps), ML Infomap, and OpenStreetMap extracts.
+- **Use cases:** Base layer for any spatial analysis requiring administrative boundaries. District/sub-district level aggregation of satellite or survey data.
+- **Referenced by:** Multiple research contexts
+
+### 75. DLC Rates / ePanjiyan (State Property Valuation Portals)
+- **Link:** https://epanjiyan.rajasthan.gov.in/ (Rajasthan), https://igrs.ap.gov.in/ (AP), https://igr.maharashtra.gov.in/ (Maharashtra)
+- **Publisher:** State Departments of Registration and Stamps (IGRS)
+- **What:** District Level Committee (DLC) rates / circle rates / guideline values -- the government-notified minimum property valuations for each locality, used as the floor for stamp duty calculation and property registration. Revised annually. Lookup by district, SRO, village/colony. Also provides property registration data (transaction volumes, sale values).
+- **Use cases:** Property market analysis, stamp duty revenue estimation, land valuation studies, cross-referencing with satellite-derived built stock measures, real estate price indices at granular geographic levels.
+- **Referenced by:** Property tax and municipal finance research
+
 ---
 
 | Category | Count |
@@ -526,7 +547,7 @@ These are the foundational data sources for understanding India. Both organizati
 | Financial Inclusion & Insurance | 2 |
 | Geopolitical & Media | 2 |
 | Open Data Portals & Tools | 3 |
-| **Total unique data sources** | **~72** |
+| **Total unique data sources** | **~75** |
 
 ### Top 10 Most Referenced Data Sources (across both websites)
 1. **PLFS** -- referenced in 25+ articles/papers
