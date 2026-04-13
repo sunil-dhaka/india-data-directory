@@ -248,23 +248,43 @@ These are the foundational data sources for understanding India. Both organizati
 - **Use cases:** National electricity baseline.
 - **Referenced by:** DFI (Living Conditions articles)
 
+### 36. CMIE CapEx (Project-Level Infrastructure Database)
+- **Link:** https://capex.cmie.com/ (commercial subscription)
+- **Publisher:** Centre for Monitoring Indian Economy
+- **What:** Project-level database tracking investment projects from announcement through implementation and completion. Contains 8,540+ electricity generation projects (1996-present), covering capacity, ownership (public/private), location, project status (announced, implemented, completed, stalled, shelved), cost estimates, and timeline milestones. Updated quarterly from public filings, company contacts, and news sources.
+- **Use cases:** Infrastructure project completion analysis, energy capacity pipeline forecasting, capital expenditure tracking, stalled project monitoring, state-level project comparison.
+- **Referenced by:** XKDR/TrustBridge (Borah, Jaitly & Sane 2026 -- "Evaluating India's Energy Ambitions"), widely used in infrastructure policy research.
+- **Note:** Distinct from CMIE Prowess/CPHS. The CapEx derivative "CapEx dx" provides aggregated quarterly investment data. Both require commercial subscription.
+
+### 37. MERIT India (Merit Order Dispatch)
+- **Link:** https://meritindia.in/
+- **Publisher:** Ministry of Power / POSOCO
+- **What:** Real-time and historical data on power plant dispatch, marginal costs, and generation by plant. Covers all major thermal, hydro, nuclear, and renewable stations.
+- **Use cases:** Plant-level generation analysis, merit order economics, renewable curtailment tracking, electricity market analysis.
+
+### 38. Global Energy Monitor -- India Trackers
+- **Link:** https://globalenergymonitor.org/ (open access)
+- **Publisher:** Global Energy Monitor
+- **What:** Project-level trackers for solar, wind, coal, gas, and nuclear power plants globally, including India. Covers project status, capacity, location (coordinates), developer, and commissioning dates. Includes the Global Solar Power Tracker, Global Wind Power Tracker, and Global Coal Plant Tracker.
+- **Use cases:** District-level energy project mapping, coal-to-renewable transition tracking, cross-referencing with CMIE CapEx for project validation.
+
 ---
 
 ## F. Health-Specific Data
 
-### 36. Comprehensive National Nutrition Survey (CNNS) 2016-18
+### 39. Comprehensive National Nutrition Survey (CNNS) 2016-18
 - **Link:** https://nhm.gov.in/WriteReadData/l892s/1405796031571201348.pdf
 - **What:** 100,000+ children/adolescents aged 0-19 surveyed for nutritional biomarkers.
 - **Use cases:** Child stunting, anaemia prevalence (venous blood method comparison with NFHS).
 - **Referenced by:** DFI (Health articles)
 
-### 37. NCVBDC (National Centre for Vector Borne Diseases Control)
+### 40. NCVBDC (National Centre for Vector Borne Diseases Control)
 - **Link:** https://ncvbdc.mohfw.gov.in/
 - **What:** Government malaria surveillance data.
 - **Use cases:** Official malaria case tracking (though underestimates).
 - **Referenced by:** DFI (Health articles)
 
-### 38. National Drug Survey 2014-16
+### 41. National Drug Survey 2014-16
 - **Link:** https://main.mohfw.gov.in/documents/reports/drugs-survey-report
 - **What:** Survey of spurious/NSQ drugs. 10% NSQ in government procurement vs 3% retail.
 - **Use cases:** Drug procurement quality analysis.
@@ -274,19 +294,19 @@ These are the foundational data sources for understanding India. Both organizati
 
 ## G. Education Data
 
-### 39. All India Survey on Higher Education (AISHE)
+### 42. All India Survey on Higher Education (AISHE)
 - **Link:** https://aishe.gov.in/aishe-final-report/
 - **What:** Higher education enrollment and institutional data (post-Class 12).
 - **Use cases:** Higher education trends, gender distribution, enrollment statistics.
 - **Referenced by:** DFI (Living Conditions articles)
 
-### 40. UDISE Plus
+### 43. UDISE Plus
 - **Link:** https://dashboard.udiseplus.gov.in/#/home
 - **What:** Pre-primary through Grade 12 school education data.
 - **Use cases:** School enrollment trends, dropout rates, infrastructure.
 - **Referenced by:** DFI (Living Conditions articles)
 
-### 41. ASER (Annual Status of Education Reports)
+### 44. ASER (Annual Status of Education Reports)
 - **Link:** https://asercentre.org/aser-survey/
 - **What:** Learning outcomes, functional literacy, numeracy in rural India (since 2005).
 - **Use cases:** Functional literacy gaps over time.
@@ -296,18 +316,18 @@ These are the foundational data sources for understanding India. Both organizati
 
 ## H. Infrastructure and Transport Data
 
-### 42. MoRTH Road Accident Reports
+### 45. MoRTH Road Accident Reports
 - **Link:** https://morth.nic.in/
 - **What:** Police-reported road accident statistics -- accidents, deaths, injuries.
 - **Use cases:** Official road accident mortality. SRS provides alternative (higher) estimates.
 - **Referenced by:** DFI (Health articles)
 
-### 43. Vehicle Registration Data (MoRTH)
+### 46. Vehicle Registration Data (MoRTH)
 - **What:** Vehicle registration from regional transport offices.
 - **Use cases:** Vehicle ownership (260M two-wheelers, 50M cars).
 - **Referenced by:** DFI (Health, Living Conditions articles)
 
-### 44. TRAI Telecom Data
+### 47. TRAI Telecom Data
 - **What:** Mobile SIM registrations, subscriber statistics.
 - **Use cases:** Mobile penetration trends (346M to 1B+).
 - **Referenced by:** DFI (Living Conditions articles), XKDR (regulatory papers)
@@ -316,25 +336,25 @@ These are the foundational data sources for understanding India. Both organizati
 
 ## I. Municipal and Fiscal Data
 
-### 45. CityFinance Portal (MoHUA)
+### 48. CityFinance Portal (MoHUA)
 - **Link:** https://www.cityfinance.in/home
 - **What:** Municipal finance data at ULB level across states.
 - **Use cases:** Property tax demand/collection analysis, municipal revenue composition.
 - **Referenced by:** XKDR (property tax papers)
 
-### 46. RBI State Finances / Report on Municipal Finances
+### 49. RBI State Finances / Report on Municipal Finances
 - **Publisher:** Reserve Bank of India
 - **What:** Annual publications on state and municipal government finances.
 - **Use cases:** State debt sustainability, municipal revenue analysis.
 - **Referenced by:** XKDR (fiscal papers)
 
-### 47. PFC Report on Performance of Power Utilities
+### 50. PFC Report on Performance of Power Utilities
 - **Link:** https://www.pfcindia.com/
 - **What:** Annual performance of state power utilities -- costs, revenue, AT&C losses.
 - **Use cases:** Discom performance ranking, cross-state electricity analysis.
 - **Referenced by:** XKDR (electricity papers)
 
-### 48. PRAAPTI Portal
+### 51. PRAAPTI Portal
 - **Link:** https://praapti.in
 - **What:** Payment delays by discoms to power generators.
 - **Use cases:** Electricity sector payment tracking.
@@ -344,13 +364,13 @@ These are the foundational data sources for understanding India. Both organizati
 
 ## J. Agricultural Data
 
-### 49. Agriculture Census
+### 52. Agriculture Census
 - **Link:** https://agcensus.dacnet.nic.in/
 - **What:** National census of agricultural landholdings by district.
 - **Use cases:** Landholding distribution analysis for agricultural research.
 - **Referenced by:** XKDR (solarisation paper)
 
-### 50. Minor Irrigation Census
+### 53. Minor Irrigation Census
 - **Link:** https://micensus.gov.in/
 - **What:** Census of minor irrigation sources (wells, tubewells).
 - **Use cases:** Identifying irrigation infrastructure for agricultural solarisation.
@@ -360,19 +380,19 @@ These are the foundational data sources for understanding India. Both organizati
 
 ## K. Trade Data
 
-### 51. DGCIS Trade Statistics
+### 54. DGCIS Trade Statistics
 - **Publisher:** Ministry of Commerce and Industry
 - **What:** India's official merchandise trade statistics.
 - **Use cases:** Import/export values, trade composition.
 - **Referenced by:** DFI (Economy articles)
 
-### 52. Export Import Data Bank
+### 55. Export Import Data Bank
 - **Link:** https://tradestat.commerce.gov.in/
 - **What:** Detailed commodity-level trade data (HS codes).
 - **Use cases:** Specific commodity import/export analysis.
 - **Referenced by:** DFI (Economy articles)
 
-### 53. PPAC (Petroleum Planning & Analysis Cell)
+### 56. PPAC (Petroleum Planning & Analysis Cell)
 - **Link:** https://ppac.gov.in/
 - **What:** Petroleum import/export/consumption data.
 - **Use cases:** Energy import dependence analysis.
@@ -382,13 +402,13 @@ These are the foundational data sources for understanding India. Both organizati
 
 ## L. Financial Inclusion and Insurance
 
-### 54. World Bank Global Findex Database
+### 57. World Bank Global Findex Database
 - **Link:** https://www.worldbank.org/en/publication/globalfindex
 - **What:** Global financial inclusion survey data.
 - **Use cases:** Bank account ownership, card penetration, financial inclusion gaps.
 - **Referenced by:** DFI (Economy articles)
 
-### 55. GIC Yearbook / IIB Motor Reports
+### 58. GIC Yearbook / IIB Motor Reports
 - **Link:** https://www.gicouncil.in/
 - **What:** Insurance industry statistics, motor insurance claims data.
 - **Use cases:** MACT litigation analysis, insurance market dynamics.
@@ -398,13 +418,13 @@ These are the foundational data sources for understanding India. Both organizati
 
 ## M. Geopolitical and Media Data
 
-### 56. SIPRI Arms Transfers Database
+### 59. SIPRI Arms Transfers Database
 - **Link:** https://www.sipri.org/databases/armstransfers
 - **What:** International arms transfers since 1950.
 - **Use cases:** India's arms import composition and trends.
 - **Referenced by:** XKDR (FIMI paper)
 
-### 57. RSF Media Ownership Monitor: India
+### 60. RSF Media Ownership Monitor: India
 - **Link:** https://rsf.org/en/media-ownership-monitor-who-owns-media-india
 - **What:** Media ownership mapping -- audience shares, ownership structures, concentration.
 - **Use cases:** Media concentration analysis for regulatory commentary.
@@ -414,13 +434,13 @@ These are the foundational data sources for understanding India. Both organizati
 
 ## N. Open Data Portals and Tools
 
-### 58. India Open Government Data (data.gov.in)
+### 61. India Open Government Data (data.gov.in)
 - **Link:** https://data.gov.in
 - **What:** 234,000+ datasets across sectors under NDSAP.
 - **Use cases:** Various government datasets for research.
 - **Referenced by:** XKDR (solarisation, data governance papers)
 
-### 59. XKDR Open-Source Tools
+### 62. XKDR Open-Source Tools
 - **NighttimeLights.jl** -- Julia package for VIIRS data processing (https://github.com/xKDR/NighttimeLights.jl)
 - **Survey.jl** -- Julia package for complex survey analysis
 - **DtD.jl** -- Julia package for Distance-to-Default calculations
@@ -428,7 +448,7 @@ These are the foundational data sources for understanding India. Both organizati
 - **Legal System Dataset** -- Open court data (https://xkdr.github.io/legal-system-dataset-frontend/)
 - **Referenced by:** XKDR (various papers)
 
-### 60. NSO Microdata Portal
+### 63. NSO Microdata Portal
 - **Link:** https://microdata.gov.in/NADA/index.php/home
 - **What:** Unit-level data from NSO surveys (PLFS, HCES, EUS, CAMS, etc.)
 - **Use cases:** Research access to household survey microdata.
@@ -440,69 +460,69 @@ These are the foundational data sources for understanding India. Both organizati
 
 ## O. Additional Notable Sources (from complete agent results)
 
-### 61. GHSL Building Volume Data (European Commission JRC)
+### 64. GHSL Building Volume Data (European Commission JRC)
 - **Link:** https://ghsl.jrc.ec.europa.eu/
 - **What:** Satellite-derived building volume grids at ~90m resolution globally.
 - **Use cases:** Property tax potential estimation (explains >80% of PT demand variation).
 - **Referenced by:** XKDR
 
-### 62. Mahabhulekh / State Land Records Portals
+### 65. Mahabhulekh / State Land Records Portals
 - **Link:** https://mahabhulekh.maharashtra.gov.in (Maharashtra)
 - **What:** Digitised parcel-level land records (7/12 extracts) with ownership, area, land type.
 - **Use cases:** Women's land ownership mapping, land record quality analysis.
 - **Referenced by:** XKDR
 
-### 63. NCAER Land Records and Services Index (N-LRSI)
+### 66. NCAER Land Records and Services Index (N-LRSI)
 - **What:** Index measuring land record digitisation across 33 states.
 - **Use cases:** Studying link between land record quality and household credit access.
 - **Referenced by:** XKDR
 
-### 64. MCA-21 Database (Ministry of Corporate Affairs)
+### 67. MCA-21 Database (Ministry of Corporate Affairs)
 - **Link:** https://www.mca.gov.in/
 - **What:** Financial filings of ~1.1 million registered companies.
 - **Use cases:** MSME analysis, firm-level research.
 - **Referenced by:** XKDR
 
-### 65. NSE/BSE Market Data (Tick-by-tick)
+### 68. NSE/BSE Market Data (Tick-by-tick)
 - **What:** Microsecond-level trading data from Indian stock exchanges.
 - **Use cases:** Market microstructure research, algorithmic trading analysis.
 - **Referenced by:** XKDR
 
-### 66. RBI Handbook of Statistics (Multiple Tables)
+### 69. RBI Handbook of Statistics (Multiple Tables)
 - **Link:** https://dbie.rbi.org.in/
 - **What:** Ownership of government securities, interest rates, maturity patterns, CRR/SLR data.
 - **Use cases:** Analysis of sovereign debt composition and who lends to the Indian state.
 - **Referenced by:** XKDR
 
-### 67. EPFO / PFRDA / IRDAI Annual Reports
+### 70. EPFO / PFRDA / IRDAI Annual Reports
 - **What:** Investment portfolio data for pension, provident, and insurance funds.
 - **Use cases:** Tracking institutional investor mandatory government bond holdings.
 - **Referenced by:** XKDR
 
-### 68. Civil Registration System (CRS)
+### 71. Civil Registration System (CRS)
 - **Link:** https://censusindia.gov.in/census.website/data/VSREPORT
 - **What:** Mandatory registration of births, deaths, stillbirths (98%+ completeness by 2023).
 - **Use cases:** Vital statistics baseline, mortality tracking.
 - **Referenced by:** DFI
 
-### 69. Detailed Demands for Grants (DDGs) / CGA Accounts
+### 72. Detailed Demands for Grants (DDGs) / CGA Accounts
 - **Link:** Ministry websites / https://cga.nic.in/
 - **What:** Object-head expenditure data from all Union government ministries.
 - **Use cases:** Estimating government procurement (11-12% of GDP), spending gap analysis.
 - **Referenced by:** XKDR
 
-### 70. Crime Victimisation Surveys (India)
+### 73. Crime Victimisation Surveys (India)
 - **What:** CHRI (2015), IDFC/SATARC (2017), Karnataka CVS (2018-19), SPIR.
 - **Use cases:** Measuring actual vs reported crime, non-reporting patterns.
 - **Referenced by:** XKDR
 
-### 71. Harmonized Nighttime Light Dataset (Li et al.)
+### 74. Harmonized Nighttime Light Dataset (Li et al.)
 - **Link:** https://doi.org/10.6084/m9.figshare.9828827.v7
 - **What:** Combined DMSP-OLS + VIIRS annual nighttime lights (1992-2021).
 - **Use cases:** Long-run economic activity analysis.
 - **Referenced by:** XKDR
 
-### 72. Global Data Lab Subnational HDI
+### 75. Global Data Lab Subnational HDI
 - **Link:** https://globaldatalab.org
 - **What:** Subnational socioeconomic indicators including GNI per capita.
 - **Use cases:** Ground-truth for nighttime lights GDP proxy validation.
@@ -537,7 +557,7 @@ These are the foundational data sources for understanding India. Both organizati
 | Economic & Financial Data | 8 |
 | International/Multilateral Sources | 10 |
 | Judicial & Legal Data | 6 |
-| Climate, Energy & Satellite | 7 |
+| Climate, Energy & Satellite | 10 |
 | Health-Specific | 3 |
 | Education | 3 |
 | Infrastructure & Transport | 3 |
